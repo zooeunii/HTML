@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>continue 문</title>
+</head>
+<body>
+<h3>홀수인 수만 더하기</h3>
+<hr>
+<script>
+	let sum=0;
+	for(let i=1; i<=10; i++) {
+		if(i%2 != 1)
+			continue;
+		document.write(i + " ");
+		sum += i;
+	}
+	document.write("합은 " + sum);
+</script>
+</body>
+</html>
