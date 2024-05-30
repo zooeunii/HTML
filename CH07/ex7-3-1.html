@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Array 객체로 1부터 10까지 합산</title>
+</head>
+<body>
+<h3>Array 객체로 1부터 10까지 합산</h3>
+<hr>
+<script>
+	let add = new Array();	//빈 배열 생성
+	for(let i=0; i<=10; i++)
+		add[i] = i;
+
+	let sum = 0;
+	for(let i=0; i<add.length; i++)
+		sum += add[i];
+
+	document.write("1부터 10까지의 합은 " + sum + "<br>");
+</script>
+</body>
+</html>
